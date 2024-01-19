@@ -22,7 +22,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && chmod +x /APP/download-minio/start.sh
 
 RUN pip install --no-cache-dir -r requirements.txt
-
+RUN pip install GDAL
 # Run app.py when the container launches
 CMD ["python", "s2_cog.py"]
 
