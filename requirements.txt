@@ -1,0 +1,8 @@
+ray==2.6.3
+pytz==2022.1
+numpy==1.25.2
+opencv-python==4.8.0.74
+opencv-python-headless==4.8.0.74
+pymongo==4.4.1
+loguru==0.7.2
+dynaconf==3.1.11

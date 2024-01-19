@@ -1,0 +1,4 @@
+[default]
+MONGO_HOST='localhost'
+MONGO_PORT='27017'
+STORAGE_DIR_PATH='/tvi-imgs'
